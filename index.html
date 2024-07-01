@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Connect-4-game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <!-- menubar  -->
+     <div class="row">
+       <button class="col">MENU</button>
+       <button class="col">RESTART</button>
+     </div>
+     
+     <!-- game  -->
+     <div class="row">
+        <div class="players">
+          PLAYER 1
+          <span class="score">0</span>
+        </div>
+
+         <!-- gamebar  -->
+          <div class="board col">
+           
+            <ul class="column" id="c1">
+              <p id="cl1"></p>
+              <p id="cl2"></p>
+              <p id="cl3"></p>
+              <p id="cl4"></p>
+              <p id="cl5"></p>
+              <p id="cl6"></p>
+            </ul>
+            <ul class="column" id="c2">
+              <p id="cl1"></p>
+              <p id="cl2"></p>
+              <p id="cl3"></p>
+              <p id="cl4"></p>
+              <p id="cl5"></p>
+              <p id="cl6"></p>
+            </ul>
+            <ul class="column" id="c3">
+              <p id="cl1"></p>
+              <p id="cl2"></p>
+              <p id="cl3"></p>
+              <p id="cl4"></p>
+              <p id="cl5"></p>
+              <p id="cl6"></p>
+            </ul>
+            <ul class="column" id="c4">
+              <p id="cl1"></p>
+              <p id="cl2"></p>
+              <p id="cl3"></p>
+              <p id="cl4"></p>
+              <p id="cl5"></p>
+              <p id="cl6"></p>
+            </ul>
+            <ul class="column" id="c5">
+              <p id="cl1"></p>
+              <p id="cl2"></p>
+              <p id="cl3"></p>
+              <p id="cl4"></p>
+              <p id="cl5"></p>
+              <p id="cl6"></p>
+            </ul>
+            <ul class="column" id="c6">
+              <p id="cl1"></p>
+              <p id="cl2"></p>
+              <p id="cl3"></p>
+              <p id="cl4"></p>
+              <p id="cl5"></p>
+              <p id="cl6"></p>
+            </ul>
+
+          </div>
+
+        <div class="players">
+          PLAYER 2
+          <span class="score">0</span>
+        </div>
+      
+     </div>
+     
+     <div>
+     <div class="timer-box">
+      <p class="player">PLAYER <span class="player-id">1</span>'s TURN</p>
+
+      <div class="timer col"><span class="time">30s</span></div>
+     </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
