@@ -66,9 +66,10 @@ ul{
   place-items: center;
   padding: 0;
   margin: 0;
+  list-style: none;
 }
 
-ul p{
+ul li{
   margin: 2px;
   width: 40px;
   height: 40px;
@@ -76,6 +77,13 @@ ul p{
   border-top: 4px solid black;
   border-radius: 20px;
   background-color: #E2BBE9;
+}
+
+.active-player1{
+  background-color: red;
+}
+.active-player2{
+  background-color: blue;
 }
 
 ul:hover{
@@ -101,14 +109,6 @@ ul:hover{
   z-index: 1000;
 }
 
-/* .timer-box::after{
-  position: absolute;
-  content: "";
-  background-color: black;
-  height: 100%;
-  width: 100%;
-  z-index: 0;
-} */
 
 .player{
   margin: 0;
